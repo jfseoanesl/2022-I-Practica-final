@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package co.edu.unicesar.modelo;
 
 /**
@@ -11,6 +7,7 @@ package co.edu.unicesar.modelo;
 public class Libro extends Publicacion{
     private int nPaginas;
     private int edicion;
+    private String prueba;
 
     public Libro(String idbn) {
         super(idbn);
